@@ -1,0 +1,16 @@
+{
+  "name": "nocoolnametom-local-ghost",
+  "version": "2.0.0",
+  "description": "This is the local ghost blogs for Tom Doggett's websites.",
+  "main": "index.js",
+  "scripts": {
+    "start:blog": "NODE_ENV=blog node index.js",
+    "start:homepage": "NODE_ENV=homepage node index.js",
+    "start:niceapodcast": "NODE_ENV=niceapodcast node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ghost": "~0.11.9"
+  }
+}
